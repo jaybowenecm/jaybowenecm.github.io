@@ -1,66 +1,91 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jays Portfolio</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <div id="backimage">
-        <header>
-            <h1>Jay Bowen</h1>
-            <span><strong>Full Stack Software Developer</strong></span>
-        </header>
-        <main>
-            <section id="bio">
-                <h2 class="bio">Bio</h2>
-                <img class="me" src="images/me.jpg">
-                <p>Jays test content.
-                <br> My resume <a href="images/jbowen.pdf" target="_blank">Click Here</a>
-                </p>
-            </section>
-            </div>
-            <section id="MySkills">
-                <h2>Knowledge Areas</h2>
-                <i class="devicon-csharp-plain colored"></i>
-                <i class="devicon-filenet-plain colored"></i>
-                <i class="devicon-html5-plain colored"></i>
-             <p id="more"><br>.NET Core</p>
-            </section>
-            <section>
-            <h3>My Projects</h3>
-            <div id="projects">
-                <article id="myprojects">
-                    <p>project 1</p>
-                    <a href="https://project 1"
-                    target="_blank" alt="project1alttext" title="project1alttext"><img src="./images/tbd.jpg" id="qtv"></a>
-                    <p>Project 1 is a great project!!</p>
-                </article>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jay Bowen Profile</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
 
-               <article id="myprojects">
-			                      <p>project 2</p>
-			                      <a href="https://project 1"
-			                      target="_blank" alt="project1alttext" title="project1alttext"><img src="./images/tbd.jpg" id="qtv"></a>
-			                      <p>Project 1 is a great project!!</p>
-                </article>
+  <header>
+    <h1>Jay Bowen</h1>
+    <span>ECM Specialist</span>    
+  </header>
+ 
+  <main>
 
-                 <article id="myprojects">
-				                    <p>project 3</p>
-				                    <a href="https://project 1"
-				                    target="_blank" alt="project1alttext" title="project1alttext"><img src="./images/tbd.jpg" id="qtv"></a>
-				                    <p>Project 1 is a great project!!</p>
-                </article>
+      <section id="Bio">
+        <img class="biopicture" src="./images/jbowen_small.jpg" width="100">
+        <p>Hi, I am the founder of Bowen ECM Solutions LLC which is a boutique vendor specializing in enterprise
+            content management (ECM) software including FileNet,
+            Hyland OnBase and OpenText Context server. My software is deployed in six different countries to
+            migrate data every day and my largest single data
+            migration is six billion objects. Additionally, I develop custom workflow applications in FileNet
+            BPM/BAW, administer content management systems, work
+            with databases, operating systems and middleware application servers such as Websphere. I have
+            worked with a long list of file formats and respective
+            APIs such as AutoCAD, Adobe forms/PDF, DocuSign, images and COLD overlay. You can contact me at
+            jay@mail.com.</p>
 
-                </div>
-            </section>
-        </main>
-        <nav id="mynav">
-            <a href="https://google.com" target="_blank" class="fa fa-github" id="git" class="crosshair"></a>
-            <a href="https://www.linkedin.com/in/" target="_blank" class="fa fa-linkedin" id="linked" class="crosshair"></a>
-            <a href="mailto:jay@bowenecmsolutions.com" target="_blank" class="fa fa-envelope" id="mail" title="jay@bowenecmsolutions.com"></i>
-        </nav>
-        <p>Jay Bowen</p>
-    </body>
+      </section>
 
+<section id="skills">
+    <p>Links and other information</p>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/jay-bowen-3663a716/">Linked In</a></li>
+        <li><a href="https://www.linkedin.com/in/jay-bowen-3663a716/">Github</a></li>
+        <li>C#.net || WCF || REST || Java</li>
+        <li>IBM FileNet P8 Content Management and BPM</li>
+        <li>OpenText Content Server</li>
+        <li>Hyland OnBase</li>
+
+    </ul>
+</section>
+
+      <section id="tutorialSection">
+        <h2>Tutorial Solutions</h2>
+        
+        <div id="sampleProjects">
+          <article>
+            <h3>Project 1 - FlexBox</h3>          
+            <a href="https://github.com/jaybowenecm/flexbox.git" target="_blank" alt="FlexBoxProject"
+                    title="FlexBoxProject"><img src="./images/flexbox.png" id="project_item"></a>
+            <button>Show Details</button>
+            <p>Learn about CSS and HTML flexbox.</p>
+          </article>
+          <article>
+            <h3>Project 2 - Grid Test project, html/CSS</h3>
+        
+            <a href="https://github.com/jaybowenecm/cssgridtest.git" target="_blank" alt="GridTestProject"
+                    title="GridTestProject"><img src="./images/flexgrid.png" id="project_item"></a>
+            <button>Show Details</button>
+            <p>Learn about flexgrids, CSS and HTML.</p>
+          </article>
+          <article>
+            <h3>Project 3 - TBD</h3>           
+            <a href="https://github.com/jaybowenecm/flexbox.git" target="_blank" alt="FlexBoxProject"
+                    title="FlexBoxProject"><img src="./images/flexgrid.png" id="project_item"></a>
+            <button>Show Details</button>
+            <p>TBD</p>
+          </article>
+        </div>
+      </section>
+      <section id="contactSection">
+        <h2>Contact</h2>
+        <ul>
+          <li>Email: jay@bowenecmsolutions.com</li>
+          </ul>
+      </section>
+      
+  </main>
+  <footer>
+    <div>
+      &copy; 2020 Jay Bowen
+    </div>
+  </footer>
+
+
+</body>
 </html>
